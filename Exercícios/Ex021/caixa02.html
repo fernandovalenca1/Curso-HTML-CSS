@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 10px;
+        box-shadow: 2px 2px 4px 1px rgb(0, 0, 0.315);
+       }
+       header{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px 1px rgb(0, 0, 0.315);
+        }
+        nav{
+            background-color: rgb(107, 107, 107);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgb(0, 0, 0.315);
+            }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(236, 220, 233);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        section > a {            
+            font-weight: bold;
+            margin-right: 40px;
+            color: rgb(206, 11, 44);
+            text-decoration: none;
+        }
+        footer > p {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;  
+            box-shadow: 2px 2px 4px 1px rgb(0, 0, 0.315);                     
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <a href="#">Gagal</a>
+            <a href="#">Banho</a>
+            <a href="#">Fralda</a>
+            <article>
+                <aside>
+                    <h2>Notícias sobre Pipinha</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A laboriosam maxime velit nemo, corrupti nisi excepturi dolores officia, veniam explicabo hic. Rerum, fugiat expedita similique itaque deleniti obcaecati. Id, dignissimos?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sequi nobis in eaque quae accusantium labore enim adipisci aliquam soluta eius tenetur, quaerat commodi ipsa atque esse voluptatem ullam illum.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis deserunt nam incidunt ipsa voluptatibus? Nostrum impedit consequuntur explicabo ullam, mollitia libero, eum totam incidunt rem nam quam cupiditate culpa! Possimus?</p>
+                </aside>
+                <p><strong>Artigo escrito pelo pai de pipinha</strong> </p>
+            </article>
+            <article>
+
+            </article>
+        </section>
+        <section id="notícias">
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Pipinhas</p>
+    </footer>
+</body>
+</html>
